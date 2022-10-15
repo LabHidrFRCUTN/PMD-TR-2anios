@@ -50,7 +50,7 @@ var lyr_TR2anios16102022_3 = new ol.layer.Vector({
                 source:jsonSource_TR2anios16102022_3, 
                 style: style_TR2anios16102022_3,
                 interactive: true,
-    title: 'TR2anios16102022<br />\
+    title: 'PMD 2 años<br />\
     <img src="styles/legend/TR2anios16102022_3_0.png" /> 9.5 mm - 39.9 mm<br />\
     <img src="styles/legend/TR2anios16102022_3_1.png" /> 39.9 mm - 59.8 mm<br />\
     <img src="styles/legend/TR2anios16102022_3_2.png" /> 59.8 mm - 70 mm<br />\
@@ -71,7 +71,7 @@ var lyr_Isohietas_TR2aos_4 = new ol.layer.Vector({
                 source:jsonSource_Isohietas_TR2aos_4, 
                 style: style_Isohietas_TR2aos_4,
                 interactive: false,
-                title: '<img src="styles/legend/Isohietas_TR2aos_4.png" /> Isohietas_TR = 2 años'
+                title: '<img src="styles/legend/Isohietas_TR2aos_4.png" /> Isohietas PMD 2 años'
             });
 var format_LimiteProvincial_5 = new ol.format.GeoJSON();
 var features_LimiteProvincial_5 = format_LimiteProvincial_5.readFeatures(json_LimiteProvincial_5, 
@@ -90,7 +90,7 @@ var lyr_LimiteProvincial_5 = new ol.layer.Vector({
 
 lyr_GoogleMaps_0.setVisible(false);lyr_GoogleHybrid_1.setVisible(true);lyr_OpenTopomap_2.setVisible(false);lyr_TR2anios16102022_3.setVisible(true);lyr_Isohietas_TR2aos_4.setVisible(true);lyr_LimiteProvincial_5.setVisible(true);
 var layersList = [lyr_GoogleMaps_0,lyr_GoogleHybrid_1,lyr_OpenTopomap_2,lyr_TR2anios16102022_3,lyr_Isohietas_TR2aos_4,lyr_LimiteProvincial_5];
-lyr_TR2anios16102022_3.set('fieldAliases', {'Latitud': 'Latitud', 'Longitud': 'Longitud', 'PMD 2 anio': 'PMD 2 a�os [mm]', });
+lyr_TR2anios16102022_3.set('fieldAliases', {'Latitud': 'Latitud', 'Longitud': 'Longitud', 'PMD 2 anio': 'PMD 2 años [mm]', });
 lyr_Isohietas_TR2aos_4.set('fieldAliases', {'fid': 'fid', 'ID': 'ID', 'ELEV': 'ELEV', });
 lyr_LimiteProvincial_5.set('fieldAliases', {'gid': 'gid', });
 lyr_TR2anios16102022_3.set('fieldImages', {'Latitud': 'TextEdit', 'Longitud': 'TextEdit', 'PMD 2 anio': 'TextEdit', });
